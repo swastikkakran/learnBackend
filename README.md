@@ -1,1 +1,4 @@
-This is a project created for learning backend. Not to be published publically.
+## Backend Project for learning
+
+This program is created for learning purpose only.
+Not to be published.

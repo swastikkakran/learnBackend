@@ -8,4 +8,10 @@ const healthCheck = (req, res) => {
     } catch(error){}
 }
 
+const testRoute = (req, res) => {
+    res
+        .status(200)
+        .json(new ApiResponse(200, {message: "test route is working..."}))
+}
+export {testRoute}
 export { healthCheck }

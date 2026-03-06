@@ -21,8 +21,8 @@ import healthCheckRouter from "./routes/healthcheck.routes.js"
 app.use("/api/v1/healthcheck", healthCheckRouter)
 
 //auth routes
-import registerAuthRouter from "./routes/auth.routes.js"
-app.use("/api/v1/auth", registerAuthRouter)
+import AuthRouter from "./routes/auth.routes.js"
+app.use("/api/v1/auth", AuthRouter)
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
